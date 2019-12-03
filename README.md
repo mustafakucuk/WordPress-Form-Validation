@@ -27,7 +27,7 @@ $fields = [
     'user_meta' => [
         [
            'field' => 'full_name',
-           'label' => __('Full Name', 'upositive'),
+           'label' => __('Full Name', ''),
             'rules' => 'required|min_word[2]'
         ],
 	]
@@ -84,7 +84,7 @@ $fields = [
            'rules' => 'required|min_word[2]'
             'error_messages' => [
                 'required' => __('%s is cannot be blank.', 'your_textdomain'),
-				'min_word' => __('%s must be at least %d words.', 'your_textdomain')
+		'min_word' => __('%s must be at least %d words.', 'your_textdomain')
             ]
         ],
     ]
