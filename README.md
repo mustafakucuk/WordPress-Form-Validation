@@ -91,7 +91,7 @@ $fields = [
 ];
 ````
 
-### You can use function
+### You can use as function
 ````php
 function form_validation($fields = [], $data = [])
 {
